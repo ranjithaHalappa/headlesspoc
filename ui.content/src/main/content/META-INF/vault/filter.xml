@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/vationheadlesspoc" mode="merge"/>
+    <filter root="/content/vationheadlesspoc" mode="merge"/>
+    <filter root="/content/dam/vationheadlesspoc" mode="merge">
+        <exclude pattern="/content/dam/vationheadlesspoc(/.*)?"/>
+        <include pattern="/content/dam/vationheadlesspoc/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/vationheadlesspoc/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/vationheadlesspoc" mode="merge"/>
+</workspaceFilter>
